@@ -2,8 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
+// ignore: must_be_immutable
 class SmartDeviceBox extends StatelessWidget {
   final String smartDeviceName;
   final String iconPath;
@@ -57,7 +58,7 @@ class SmartDeviceBox extends StatelessWidget {
                   ),
                   Transform.rotate(
                     angle: pi / 2,
-                    child: CupertinoSwitch(
+                    child: Switch(
                       value: powerOn,
                       onChanged: onChanged,
                     ),

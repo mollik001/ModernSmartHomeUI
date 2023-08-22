@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   // list of smart devices
   List mySmartDevices = [
     // [ smartDeviceName, iconPath , powerStatus ]
-    ["Smart Light", "lib/icons/light-bulb.png", true],
+    ["Smart Light", "lib/icons/light-bulb.png", false],
     ["Smart AC", "lib/icons/air-conditioner.png", false],
     ["Smart TV", "lib/icons/smart-tv.png", false],
     ["Smart Fan", "lib/icons/fan.png", false],
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
 
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
 
             // welcome home
             Padding(
@@ -77,14 +77,14 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(fontSize: 20, color: Colors.grey.shade800),
                   ),
                   Text(
-                    'Mitch Koko',
-                    style: GoogleFonts.bebasNeue(fontSize: 72),
+                    'Faysal ',
+                    style: GoogleFonts.teko(fontSize: 72),
                   ),
                 ],
               ),
             ),
 
-            const SizedBox(height: 25),
+            //const SizedBox(height: 25),
 
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 40.0),
